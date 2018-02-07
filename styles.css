@@ -11,7 +11,7 @@ main {
 	margin-right: 100px;
 	margin-left: 100px;
 	width: calc(100% - 200px);
-	height: calc(100% - 20px);
+	/*height: calc(100% - 20px);*/
 	position: absolute;
 	padding: 20px;
 }
@@ -38,10 +38,12 @@ p {
 	font-size: 18px;
 	text-align: left;
 }
-span {
+p.first::first-letter {
 	font-family: 'Playfair Display', serif;
 	font-size: 110px;
-
+	margin-right: 0.2em;
+	float: left;
+	line-height: 80px;
 }
 blockquote::before {
 	content: "\201C";
@@ -51,7 +53,7 @@ blockquote {
 	font-weight: 300;
 	font-style: italic;
 	font-size: 24px;
-	line-height: 1.5em;
+	line-height: 2em;
 }
 button {
 	font-family: 'Lato', sans-serif;
