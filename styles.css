@@ -3,7 +3,7 @@
 body {
 	background-color: #ffffff;
 	margin: 0px;
-	position: relative;
+
 }
 main {
 	background-color: #f8f8f8;
@@ -11,16 +11,14 @@ main {
 	margin-right: 100px;
 	margin-left: 100px;
 	width: calc(100% - 200px);
-	/*height: calc(100% - 20px);*/
-	position: absolute;
 	padding: 20px;
 }
 div.dark_gray {
 	background-color: #f4f4f4;
 	border-radius: 10%;
 	margin: 10px;
+	padding: 10px;
 	box-sizing: border-box;
-	position: absolute;
 }
 article {
 	background-color: #ffffff;
