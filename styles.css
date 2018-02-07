@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,700|Playfair+Display');
+
+body {
+	background-color: #ffffff;
+	margin: 0px;
+	position: relative;
+}
+main {
+	background-color: #f8f8f8;
+	border-radius: 10%;
+	margin-right: 100px;
+	margin-left: 100px;
+	width: calc(100% - 200px);
+	height: calc(100% - 20px);
+	position: absolute;
+	padding: 20px;
+}
+div.dark_gray {
+	background-color: #f4f4f4;
+	border-radius: 10%;
+	margin: 10px;
+	box-sizing: border-box;
+	position: absolute;
+}
+article {
+	background-color: #ffffff;
+	padding: 50px 100px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 42px;
+}
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: left;
+}
+span {
+	font-family: 'Playfair Display', serif;
+	font-size: 110px;
+
+}
+blockquote::before {
+	content: "\201C";
+}
+blockquote {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 24px;
+	line-height: 1.5em;
+}
+button {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	border: 2px solid #eaa258;
+	background-color: #ffffff;
+	color: #eaa258;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	height: 68px;
+	width: 264px;
+}
